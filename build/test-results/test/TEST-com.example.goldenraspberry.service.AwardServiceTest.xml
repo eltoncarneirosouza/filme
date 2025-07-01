@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.goldenraspberry.service.AwardServiceTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2025-07-01T17:40:55.430Z" hostname="pop-os" time="0.077">
+  <properties/>
+  <testcase name="shouldReturnEmptyListWhenNoAwards()" classname="com.example.goldenraspberry.service.AwardServiceTest" time="0.07">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.example.goldenraspberry.repository.MovieRepository.findAll()&quot; because &quot;this.movieRepository&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.example.goldenraspberry.repository.MovieRepository.findAll()&quot; because &quot;this.movieRepository&quot; is null
+	at com.example.goldenraspberry.service.AwardServiceTest.shouldReturnEmptyListWhenNoAwards(AwardServiceTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="shouldThrowExceptionForInvalidInputParameters()" classname="com.example.goldenraspberry.service.AwardServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
